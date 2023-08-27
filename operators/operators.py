@@ -30,3 +30,25 @@ meaning /= 10  # meaning = meaning / 10, adds decimal point
 names = "Tony " + "Stark"  # concatenation operator
 
 print(names)
+
+# Comparison operators
+
+2 == 3  # equal to
+
+2 != 3  # not equal to
+
+2 > 3  # greater than
+
+2 < 3  # less than
+
+2 >= 3  # greater than or equal to
+
+2 <= 3  # less than or equal to
+
+# Logical/Boolean operators
+
+2 > 3 and 2 == 3  # and operator, both conditions must be true
+
+2 > 3 or 2 == 3  # or operator, either condition must be true
+
+not 2 > 3  # not operator, inverts the boolean value
