@@ -12,6 +12,14 @@
 first = "Tony"
 last = "Edgal"
 
-print(type(first))
-print(type(last) == str)
-print(isinstance(last, str))
+# print(type(first))
+# print(type(last) == str)
+# print(isinstance(last, str))
+
+
+# constructor function
+
+pizza = str("Pepperoni")
+print(type(pizza))
+print(type(pizza) == str)
+print(isinstance(pizza, str))
