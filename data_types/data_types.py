@@ -8,18 +8,22 @@
 # String data type
 
 # literal assignment
-
 first = "Tony"
 last = "Edgal"
-
 # print(type(first))
 # print(type(last) == str)
 # print(isinstance(last, str))
 
 
 # constructor function
+# pizza = str("Pepperoni")
+# print(type(pizza))
+# print(type(pizza) == str)
+# print(isinstance(pizza, str))
 
-pizza = str("Pepperoni")
-print(type(pizza))
-print(type(pizza) == str)
-print(isinstance(pizza, str))
+# String concatenation
+fullname = first + " " + last
+print(fullname)
+
+fullname += "!"
+print(fullname)
