@@ -8,11 +8,11 @@ name = 'Tony'  # assignment operator
 
 2 * 3  # multiplication operator
 
-2 / 3  # division operator
+# print(2 / 3)  # division operator
 
-2 // 3  # floor division operator, rounds down to nearest whole number
+# print(2 // 3)  # floor division operator, rounds down to nearest whole number
 
-round(2 / 3)  # rounds up to nearest whole number
+# print(round(2 / 3))  # rounds up to nearest whole number
 
 24 % 3  # modulus operator, returns remainder
 
@@ -29,7 +29,7 @@ meaning /= 10  # meaning = meaning / 10, adds decimal point
 
 names = "Tony " + "Stark"  # concatenation operator
 
-print(names)
+# print(names)
 
 # Comparison operators
 
@@ -51,4 +51,4 @@ print(names)
 
 2 > 3 or 2 == 3  # or operator, either condition must be true
 
-not 2 > 3  # not operator, inverts the boolean value
+print(not 2 > 3)  # not operator, inverts the boolean value
