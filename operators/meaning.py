@@ -6,7 +6,7 @@ print('')
 # else:
 #     print('Incorrect')
 
-# Terenary operator
+# Ternary operator
 
 print('Correct') if meaning > 10 else print('Incorrect')
 print('')
